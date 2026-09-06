@@ -1,0 +1,22 @@
+# Fdb version 4
+["pdflatex"] 1788692611.8976 "/home/zzhovo/coding/cv/zju-resume-template/CV.tex" "CV.pdf" "CV" 1788692612.1025 2
+  "/etc/texmf/web2c/texmf.cnf" 1761713741 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/zzhovo/coding/cv/zju-resume-template/CV.tex" 1788692611.27688 6973 6554ab5d049be4972c5c1d72b9e3a424 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty" 1572645307 492 1994775aa15b0d1289725a0b1bbc2d4c ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty" 1572645307 488 4565444a3e75e59cb2702dc42e18f482 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo" 1705352648 8464 59874a3b0776c73e2a138b025d8473dd ""
+  "/usr/share/texlive/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty" 1546294187 5686 8a29af4ad9d707b5280738995d050842 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761718628 8214081 5cd207da90a1ce7c69ec1f5e2f35911b ""
+  "CV.aux" 1788692611.89719 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "CV.tex" 1788692611.27688 6973 6554ab5d049be4972c5c1d72b9e3a424 ""
+  (generated)
+  "CV.aux"
+  "CV.log"
+  "CV.pdf"
+  (rewritten before read)
