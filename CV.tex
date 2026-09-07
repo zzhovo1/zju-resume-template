@@ -45,8 +45,8 @@
     a4paper,
     left=1.2cm,
     right=1.2cm,
-    top=1.5cm,
-    bottom=1cm,
+    top=1cm,
+    bottom=0.7cm,
     nohead
 ]{geometry}
 
@@ -61,7 +61,7 @@
 
 % --- 用于控制【不同项目之间】的垂直距离 ---
 \newlength{\interProjectSpacing}
-\setlength{\interProjectSpacing}{0.6em} % <--- 在此调整项目之间的距离
+\setlength{\interProjectSpacing}{0.4em} % <--- 在此调整项目之间的距离
 \newcommand{\projectsep}{\vspace{\interProjectSpacing}}
 
 % --- 用于控制【项目标题】与下方【项目描述】的距离 ---
@@ -90,7 +90,7 @@
 
 %%%% 利用tikz来定位照片
 \begin{tikzpicture}[remember picture, overlay] 
-    \node[anchor = north east] at ($(current page.north east)+(-2cm,-1.2cm)$) {\includegraphics[height=3cm]{avatar.jpg}};
+    \node[anchor = north east] at ($(current page.north east)+(-2cm,-1.2cm)$) {\includegraphics[height=3cm,keepaspectratio]{photo.jpg}};
   \end{tikzpicture}%
   %%%% 利用tikz来定位学校Logo，这里只在第一页显示
   \begin{tikzpicture}[remember picture, overlay] 
@@ -103,7 +103,7 @@
 \centerline{\normalsize{\faEnvelopeO\ \href{mailto:3230103544@zju.edu.cn}{3230103544@zju.edu.cn}}} 
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
-\textbf{浙江大学} \hfill 2023.09 -- 至今\\[0.5em] % 标题和正文间加一点距离
+\textbf{浙江大学} \hfill 2023.09 -- 至今\\[0.3em] % 标题和正文间加一点距离
 计算机科学与技术\quad 大四 
 \begin{itemize}[nosep]
     \item 相关课程：《数据结构基础》、《高级数据结构与算法分析》、《面向对象程序设计》、《Java应用技术》等
