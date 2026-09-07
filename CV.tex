@@ -98,53 +98,65 @@
   \end{tikzpicture}%
 \centerline{\LARGE\bfseries{祝子豪}} 
 
-\centerline{\normalsize{\faPhone\ 188-6804-0560 \quad \faEnvelopeO\ \href{mailto:3230103544@zju.edu.cn}{3230103544@zju.edu.cn}}} 
+\centerline{\normalsize{\faPhone\ 188-6804-0560}} 
 
-\centerline{\normalsize{\faGithubSquare\ \href{https://github.com/zzhovo1}{https://github.com/zzhovo1} \quad \faRssSquare\ \href{https://zzhovo1.github.io/}{https://zzhovo1.github.io}}} 
+\centerline{\normalsize{\faEnvelopeO\ \href{mailto:3230103544@zju.edu.cn}{3230103544@zju.edu.cn}}} 
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
-\textbf{浙江大学} \hfill 2023.9 -- 至今\\[0.5em] % 标题和正文间加一点距离
+\textbf{浙江大学} \hfill 2023.09 -- 至今\\[0.5em] % 标题和正文间加一点距离
 计算机科学与技术\quad 大四 
 \begin{itemize}[nosep]
-    \item 相关课程：《数据结构基础》、《高级数据结构与算法分析》、《面向对象程序设计》、《Java应用技术》
+    \item 相关课程：《数据结构基础》、《高级数据结构与算法分析》、《面向对象程序设计》、《Java应用技术》等
 \end{itemize}
 
 \section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目经历}
 
-% --- 第一个项目 ---
-% 将标题行末尾的 \\ 替换为 \titlebreak 命令
+% --- 第一个项目（核心，置顶） ---
 \textbf{基于边缘AI的心电信号实时预警监护系统} \hfill 2026.03 -- 2026.07 \titlebreak
-项目描述：为维护cc98社区的讨论纯度、净化“心灵之约”版块风气，本项目旨在对“烂坑”进行科学、严谨的量化分析，并引入\textbf{大语言模型(LLM)}对烂坑帖进行\textbf{自动化情感极性与“离谱指数”标注}。
-% 在 itemize 的选项中，使用 topsep=\intraProjectListTopSep 来控制上边距
+项目描述：针对传统床旁监护误报率高、云端依赖断网失效等临床痛点，本项目基于\textbf{边缘AI}与\textbf{TinyML}技术，在\textbf{STM32H7}嵌入式平台部署轻量化心电预警模型，融合多源生理信号实现急性心脏事件的实时精准识别。
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{数据与后端}：运用 \textbf{Go} 语言及 \textbf{GORM} 框架，实现对全站“烂坑”帖的7x24小时全天候\textbf{抓取}与\textbf{入库}(MySQL)。
-    \item \textbf{可视化前端}：采用原生 \textbf{HTML/CSS/JS} 构建了“烂坑”实时监控\textbf{作战大屏}。实现了坑主成分分析、挖坑热力图、年度烂坑王榜单等\textbf{可视化图表}，并通过 \textbf{AJAX} 异步刷新，确保数据洞察的实时性。
-    \item \textbf{核心产出}：全面掌握了从\textbf{数据采集、清洗、LLM标注到可视化分析}的“反烂坑”全链路技术。
+    \item \textbf{模型压缩与部署}：采用\textbf{知识蒸馏、剪枝与量化}技术对AI模型进行轻量化优化，在STM32H7平台实现ECG信号的低延迟、低功耗实时推理。
+    \item \textbf{多模态融合预警}：融合\textbf{ECG与PPG}多源生理信号，设计\textbf{决策级融合算法}，精准识别室颤、室性早搏等危急事件，有效降低单一传感器失效导致的误报率。
+    \item \textbf{算法验证}：在\textbf{MIT-BIH、MIMIC}等权威数据库上完成模型训练与验证，计划交付具备床旁报警接口的嵌入式原型系统，为危重症快速响应救治提供技术保障。
 \end{itemize}
 
-% 使用 \projectsep 命令来分隔两个项目
 \projectsep
 
 % --- 第二个项目 ---
-\textbf{AIGC驱动的超进化自动挖坑机 (Agent)} \hfill 2025.02 -- 至今 \titlebreak
-项目描述：为探索心灵版规的边界，以及测试版主锁沉反应速度的极限，本项目基于\textbf{多智能体协作(MCP)与LLM}技术，开发了一款能\textbf{自主“挖坑”与“互坑”}的AI Agent。
+\textbf{MiniSQL数据库引擎设计} \hfill 2025.03 -- 2025.06 \titlebreak
+项目描述：基于\textbf{C++}设计并实现一个支持标准SQL子集的单用户关系型数据库引擎，深入理解底层存储结构与索引优化机制。
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{并发与调度}：后端采用 \textbf{Go} 语言，充分利用 \textbf{Goroutine} 和 \textbf{Channel} 的高并发模型，模拟\textbf{用户并发在线}，执行定时挖坑，确保挖坑行动的\textbf{隐蔽性}与\textbf{高效性}。
-    \item \textbf{实时监控与响应}：运用 \textbf{WebSocket} 协议实现了对目标帖子的\textbf{实时监听与交互}。确保在烂坑被识破的第一时间，Agent能光速完成\textbf{“lktp”}或\textbf{反向钓鱼}操作，展现出极高的AI博弈能力。
-    \item \textbf{可视化GUI}：前端使用 \textbf{React} 框架构建了\textbf{后台管理的可视化面板 (Admin Panel)}。可一键下达挖坑指令、动态调整Agent的\textbf{指令}、并实时监控数据。
+    \item \textbf{存储与索引}：自主设计\textbf{内存池与数据页管理}机制，减少内存碎片；实现基于\textbf{B+树}的聚簇索引系统，解决节点分裂与合并（Coalesce/Redistribute）难题。
+    \item \textbf{查询执行}：开发查询解析器与执行器，支持SELECT/INSERT/DELETE等标准操作，通过\textbf{缓冲区管理策略}降低磁盘I/O频率。
+    \item \textbf{性能表现}：在10万级数据量测试中，插入与查询平均耗时控制在\textbf{100ms以内}，性能优于同课程80\%的小组方案。
 \end{itemize}
+
+\projectsep
+
+% --- 第三个项目 ---
+\textbf{智能图像资源管理系统} \hfill 2025.10 -- 2026.01 \titlebreak
+项目描述：基于JavaScript全栈开发集成\textbf{深度学习模型}的图片管理系统，实现自动化图像语义标签生成与高效检索。
+\begin{itemize}[nosep, topsep=\intraProjectListTopSep]
+    \item \textbf{后端与AI集成}：设计SQL数据库存储图片元数据，集成深度学习模型自动提取图片特征，生成\textbf{5个高精度语义标签}，构建自动化素材分类管线。
+    \item \textbf{前端与并发优化}：开发RESTful API与前端交互界面，支持基于内容的模糊检索；利用\textbf{异步任务队列}处理大图分析与标签生成，优化系统并发处理能力。
+    \item \textbf{项目成果}：实现了素材标签识别的自动化，显著提升了资源检索效率。
+\end{itemize}
+
+\projectsep
 
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
 \begin{itemize}[nosep]
-    \item \textbf{编程语言：} \textbf{Go}, Python, C++
-    \item \textbf{开发工具：} SSH, Git, Vim, MakeFile,LaTex
-    \item \textbf{操作系统：} Linux
+    \item \textbf{编程语言：} C\texttt{++}, Python, Java, JavaScript, Go
+    \item \textbf{英语能力：} CET-6 541分
+    \item \textbf{开发工具：} Linux, Git, Docker, Makefile, LaTeX
+    \item \textbf{数据库与后端：} MySQL, SQLite, RESTful API, GORM
 \end{itemize}
+
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 获奖情况}
 \begin{itemize}
-    \item 全国大学生生物医学工程创新设计大赛三等奖 \hfill 2026.7
+    \item 全国大学生生物医学工程创新设计大赛三等奖 \hfill 2026.07
     \item 浙江大学一等奖学金 \hfill 2024.10
-    \item 浙江大学优秀团员 \hfill 2024.5
+    \item 浙江大学优秀团员 \hfill 2024.05
     
 \end{itemize}
     
