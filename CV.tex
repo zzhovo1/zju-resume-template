@@ -50,7 +50,7 @@
     nohead
 ]{geometry}
 
-\renewcommand{\baselinestretch}{1.5} % 行间距设为1.5
+\renewcommand{\baselinestretch}{1.2} % 行间距设为1.5
 
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -90,17 +90,19 @@
 
 %%%% 利用tikz来定位照片
 \begin{tikzpicture}[remember picture, overlay] 
-    \node[anchor = north east] at ($(current page.north east)+(-2cm,-1.2cm)$) {\includegraphics[height=3cm,keepaspectratio]{photo.jpg}};
+    \node[anchor = north east] at ($(current page.north east)+(-1.2cm,-0.2cm)$) {\includegraphics[height=3cm,keepaspectratio]{photo.jpg}};
   \end{tikzpicture}%
   %%%% 利用tikz来定位学校Logo，这里只在第一页显示
   \begin{tikzpicture}[remember picture, overlay] 
-    \node[anchor = north west] at ($(current page.north west)+(0.5cm,+1.0cm)$) {\includegraphics[height=6cm]{zju.png}};
+    \node[anchor = north west] at ($(current page.north west)+(0.5cm,+0.3cm)$) {\includegraphics[height=6cm]{zju.png}};
   \end{tikzpicture}%
 \centerline{\LARGE\bfseries{祝子豪}} 
 
-\centerline{\normalsize{\faPhone\ 188-6804-0560}} 
-
-\centerline{\normalsize{\faEnvelopeO\ \href{mailto:3230103544@zju.edu.cn}{3230103544@zju.edu.cn}}} 
+\centerline{\normalsize{
+  \faPhone\ 188-6804-0560
+  \quad
+  \faEnvelopeO\ \href{mailto:3230103544@zju.edu.cn}{3230103544@zju.edu.cn}
+  }}
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
 \textbf{浙江大学} \hfill 2023.09 -- 至今\\[0.3em] % 标题和正文间加一点距离
@@ -146,9 +148,9 @@
 
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
 \begin{itemize}[nosep]
-    \item \textbf{编程语言：} C\texttt{++}, Python, Java, JavaScript, Go \hfill \item \textbf{英语能力：} CET-6 541分
+    \item \textbf{编程语言：} C\texttt{++}, Python, Java, JavaScript, Go \hfill  \textbf{英语能力：} CET-6 541分
     
-    \item \textbf{开发工具：} Linux, Git, Docker, Makefile \hfill \item \textbf{后端技术：} MySQL, SQLite, RESTful API
+    \item \textbf{开发工具：} Linux, Git, Docker, Makefile \hfill  \textbf{后端技术：} MySQL, SQLite, RESTful API
 \end{itemize}
 
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 获奖情况}
