@@ -45,7 +45,7 @@
     a4paper,
     left=1.2cm,
     right=1.2cm,
-    top=0.5cm,
+    top=1cm,
     bottom=0.4cm,
     nohead
 ]{geometry}
@@ -61,12 +61,12 @@
 
 % --- 用于控制【不同项目之间】的垂直距离 ---
 \newlength{\interProjectSpacing}
-\setlength{\interProjectSpacing}{0.4em} % <--- 在此调整项目之间的距离
+\setlength{\interProjectSpacing}{0.2em} % <--- 在此调整项目之间的距离
 \newcommand{\projectsep}{\vspace{\interProjectSpacing}}
 
 % --- 用于控制【项目标题】与下方【项目描述】的距离 ---
 \newlength{\intraProjectTitleSep}
-\setlength{\intraProjectTitleSep}{0.3em} % <--- 在此调整标题和描述的距离
+\setlength{\intraProjectTitleSep}{0.2em} % <--- 在此调整标题和描述的距离
 \newcommand{\titlebreak}{\\[\intraProjectTitleSep]}
 
 % --- 用于控制【项目描述】与下方【要点列表】的距离 ---
@@ -94,7 +94,7 @@
   \end{tikzpicture}%
   %%%% 利用tikz来定位学校Logo，这里只在第一页显示
   \begin{tikzpicture}[remember picture, overlay] 
-    \node[anchor = north west] at ($(current page.north west)+(0.5cm,+1.2cm)$) {\includegraphics[height=3cm,keepaspectratio]{zju.png}};
+    \node[anchor = north west] at ($(current page.north west)+(0.5cm,+3cm)$) {\includegraphics[height=3cm,keepaspectratio]{zju.png}};
   \end{tikzpicture}%
 \centerline{\LARGE\bfseries{祝子豪}} 
 
@@ -146,12 +146,13 @@
 
 \projectsep
 
+\vspace{-0.5em}
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
 \begin{tabular}{@{}p{0.48\textwidth}@{\hspace{0.04\textwidth}}p{0.48\textwidth}@{}}
   \textbullet\ \textbf{编程语言：} C\texttt{++}, Python, Java, JavaScript
   &
   \textbullet\ \textbf{英语能力：} CET-6 541分
-  \\[0.25em]
+  \\[0.12em]
 
   \textbullet\ \textbf{开发工具：} Linux, Git, Docker, Makefile
   &
