@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1788760778.22095 "/home/zzhovo/coding/cv/zju-resume-template/CV.tex" "CV.pdf" "CV" 1788760778.40891 2
+["pdflatex"] 1788761379.45864 "/home/zzhovo/coding/cv/zju-resume-template/CV.tex" "CV.pdf" "CV" 1788761379.67208 2
   "/etc/texmf/web2c/texmf.cnf" 1761713741 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/zzhovo/coding/cv/zju-resume-template/CV.tex" 1788760777.5663 7418 7b2664ab35369a4e89fbd4b1c0bdfe20 ""
+  "/home/zzhovo/coding/cv/zju-resume-template/CV.tex" 1788761378.91097 7434 a9b4d244e1512a832b906667601d05db ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty" 1572645307 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -13,8 +13,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761718628 8214081 5cd207da90a1ce7c69ec1f5e2f35911b ""
-  "CV.aux" 1788760778.22052 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "CV.tex" 1788760777.5663 7418 7b2664ab35369a4e89fbd4b1c0bdfe20 ""
+  "CV.aux" 1788761379.45822 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "CV.tex" 1788761378.91097 7434 a9b4d244e1512a832b906667601d05db ""
   (generated)
   "CV.aux"
   "CV.log"

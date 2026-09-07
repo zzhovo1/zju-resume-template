@@ -45,8 +45,8 @@
     a4paper,
     left=1.2cm,
     right=1.2cm,
-    top=1cm,
-    bottom=0.7cm,
+    top=0.5cm,
+    bottom=0.4cm,
     nohead
 ]{geometry}
 
@@ -81,7 +81,7 @@
 {}{0em}                      % 可用于为所有 section 添加前缀（如“章节...”）
 {}                           % 可用于在标题前插入代码
 [{\color{CVBlue}\titlerule}]  % 在标题后插入一条横线
-\titlespacing*{\section}{0cm}{*1.6}{*1.2}
+\titlespacing*{\section}{0cm}{*1}{*1.2}
 
 
 
@@ -94,7 +94,7 @@
   \end{tikzpicture}%
   %%%% 利用tikz来定位学校Logo，这里只在第一页显示
   \begin{tikzpicture}[remember picture, overlay] 
-    \node[anchor = north west] at ($(current page.north west)+(0.5cm,+1.2cm)$) {\includegraphics[height=6cm]{zju.png}};
+    \node[anchor = north west] at ($(current page.north west)+(0.5cm,+1.2cm)$) {\includegraphics[height=3cm,keepaspectratio]{zju.png}};
   \end{tikzpicture}%
 \centerline{\LARGE\bfseries{祝子豪}} 
 
