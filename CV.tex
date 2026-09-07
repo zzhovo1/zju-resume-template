@@ -61,12 +61,12 @@
 
 % --- 用于控制【不同项目之间】的垂直距离 ---
 \newlength{\interProjectSpacing}
-\setlength{\interProjectSpacing}{0.9em} % <--- 在此调整项目之间的距离
+\setlength{\interProjectSpacing}{0.6em} % <--- 在此调整项目之间的距离
 \newcommand{\projectsep}{\vspace{\interProjectSpacing}}
 
 % --- 用于控制【项目标题】与下方【项目描述】的距离 ---
 \newlength{\intraProjectTitleSep}
-\setlength{\intraProjectTitleSep}{0.4em} % <--- 在此调整标题和描述的距离
+\setlength{\intraProjectTitleSep}{0.3em} % <--- 在此调整标题和描述的距离
 \newcommand{\titlebreak}{\\[\intraProjectTitleSep]}
 
 % --- 用于控制【项目描述】与下方【要点列表】的距离 ---
@@ -124,7 +124,7 @@
 
 % --- 第二个项目 ---
 \textbf{MiniSQL数据库引擎设计} \hfill 2025.03 -- 2025.06 \titlebreak
-项目描述：基于\textbf{C++}设计并实现一个支持标准SQL子集的单用户关系型数据库引擎，深入理解底层存储结构与索引优化机制。
+项目描述：基于\textbf{C++}设计并实现一个支持标准SQL子集的单用户关系型数据库引擎。
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
     \item \textbf{存储与索引}：自主设计\textbf{内存池与数据页管理}机制，减少内存碎片；实现基于\textbf{B+树}的聚簇索引系统，解决节点分裂与合并（Coalesce/Redistribute）难题。
     \item \textbf{查询执行}：开发查询解析器与执行器，支持SELECT/INSERT/DELETE等标准操作，通过\textbf{缓冲区管理策略}降低磁盘I/O频率。
@@ -135,7 +135,7 @@
 
 % --- 第三个项目 ---
 \textbf{智能图像资源管理系统} \hfill 2025.10 -- 2026.01 \titlebreak
-项目描述：基于JavaScript全栈开发集成\textbf{深度学习模型}的图片管理系统，实现自动化图像语义标签生成与高效检索。
+项目描述：基于JavaScript全栈开发集成\textbf{深度学习模型}的图片管理系统。
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
     \item \textbf{后端与AI集成}：设计SQL数据库存储图片元数据，集成深度学习模型自动提取图片特征，生成\textbf{5个高精度语义标签}，构建自动化素材分类管线。
     \item \textbf{前端与并发优化}：开发RESTful API与前端交互界面，支持基于内容的模糊检索；利用\textbf{异步任务队列}处理大图分析与标签生成，优化系统并发处理能力。
@@ -146,10 +146,9 @@
 
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
 \begin{itemize}[nosep]
-    \item \textbf{编程语言：} C\texttt{++}, Python, Java, JavaScript, Go
-    \item \textbf{英语能力：} CET-6 541分
-    \item \textbf{开发工具：} Linux, Git, Docker, Makefile, LaTeX
-    \item \textbf{数据库与后端：} MySQL, SQLite, RESTful API, GORM
+    \item \textbf{编程语言：} C\texttt{++}, Python, Java, JavaScript, Go \hfill \item \textbf{英语能力：} CET-6 541分
+    
+    \item \textbf{开发工具：} Linux, Git, Docker, Makefile \hfill \item \textbf{后端技术：} MySQL, SQLite, RESTful API
 \end{itemize}
 
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 获奖情况}
